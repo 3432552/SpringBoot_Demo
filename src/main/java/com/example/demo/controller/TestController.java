@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping(value = "/mes")
     public String peoMeg(){
-        return "我是谁safaaaaaaaa";
+        return "我是谁";
     }
 }
